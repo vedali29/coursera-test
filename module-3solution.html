@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://vedali29.github.io/coursera-test/bootstrap.min.css">
+    <title>Assignment solution for module-3</title>
+    <style>
+        /* Base Styles */
+		.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(5, 0, 0, 0.8);
+}
+
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+	color: rgb(82, 74, 74);
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #0e0101;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: rgb(88, 85, 85);
+	border-bottom: 1px solid rgb(233, 227, 227);
+	color: rgb(245, 235, 235);
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	color: aliceblue;
+
+    box-sizing: 25%;
+	display: block;
+	border: 20px;
+	background-color: rgb(27, 2, 2);
+}
+
+    </style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+	<nav class="navbar" id="top">
+	  <div class="container-fluid">
+	
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span> 
+		  </button>
+		  <a class="navbar-brand" href="#">Food, LLC</a>
+		</div>
+	
+		<div class="collapse" id="myNavbar">
+		  <ul class="nav navbar-nav visible-xs">
+			<li><a class="menu-item" href="#s1">Chicken</a></li>
+			<li><a class="menu-item" href="#s2">Beef</a></li> 
+			<li><a class="menu-item" href="#s3">Sushi</a></li> 
+		  </ul>
+		</div>
+	
+	  </div>
+	</nav>
+	
+	<h1 class="main-title">Our Menu</h1>
+	
+	
+	
+	<div class="row">
+	
+	  <div id="s1" class="col-lg-4 col-md-6 col-sm-12">
+		<div class="content-box">
+		  <p class="item-name">Chicken</p>
+		  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est <laborum class="lorem"></laborum>
+		  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi omnis, autem quis eos quam nesciunt vero, accusantium dolores totam officiis hic, eligendi aliquid delectus architecto! Quasi blanditiis dolor impedit aliquam.
+		  Repellat quo magnam animi quis iusto quam sint repudiandae eligendi necessitatibus, quod sed in ducimus ipsam quisquam, sequi odit? Sint dolores provident distinctio quis dignissimos eligendi libero id atque esse.
+		  Non, voluptas officia beatae officiis quae vel, eos magni voluptatem ullam quidem est tempora molestiae excepturi aliquid quaerat delectus porro saepe! Ad, tenetur. Totam animi eligendi quisquam sed aut veritatis!
+		  Culpa sequi quia quae repudiandae, ex neque modi blanditiis sapiente tempora ipsa aliquam itaque earum? Aliquid, aspernatur voluptatum quas sint quod facilis cupiditate nesc.<a href="#top">(Back to Top)</a></p>
+		</div>
+	  </div>
+	
+	  <div id="s2" class="col-lg-4 col-md-6 col-sm-12">
+		<div class="content-box">
+		  <p class="item-name">Beef</p>
+		  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque iusto possimus obcaecati ratione totam vero qui sunt minus laboriosam dicta facere voluptate laborum fuga aspernatur, nihil harum deleniti. Commodi.
+		  Error, repellat voluptates? Dignissimos quae veritatis nostrum deserunt maiores, tempora fuga maxime qui cumque, odit quidem voluptate alias. Voluptatem odit aut illum quia doloremque eos, explicabo culpa debitis quaerat! Eius!
+		  Fuga voluptas vel assumenda aspernatur quis, quo doloremque dolores facilis, illo aliquam voluptatem eveniet sint dolorem? Placeat nam vero, sunt molestiae deserunt dolor ullam modi asperiores necessitatibus earum, architecto minus voluptas hic officiis totam at ratione accusamus veritatis, sequi fugit facere voluptates neque excepturi ea. Aliquid nostrum dolor deserunt beatae magni..<a href="#top">(Back to Top)</a></p>
+		</div>
+	  </div>
+	
+	
+	  <div id="s3" class="col-lg-4 col-md-12 col-sm-12">
+		<div class="content-box">
+		  <p class="item-name">Sushi</p>
+		  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut eos nostrum architecto. Est, fugit dicta. Quod perferendis dolore magnam saepe iusto quas ullam modi nisi ab? Itaque corrupti odio in.
+		  Autem eius, excepturi ab, hic ad ipsam architecto eveniet provident voluptates et voluptatum cum beatae quidem quas deserunt error dolorum quod sunt delectus est laboriosam eaque. Molestiae modi eaque adipisci.
+		  Inventore minus molestiae ab error a reprehenderit perspiciatis officia magnam sapiente ipsa accusantium sit dolore ratione sint, vel veniam labore saepe nihil commodi iusto cum. Eligendi sint odit rem ea.
+		  Iste id distinctio, velit quam voluptates ullam animi quasi obcaecati. Aperiam, pariatur, asperiores ratione nisi iusto sit consectetur placeat qui beatae optio architecto! Quisquam adipisci hic a enim deleniti dicta?<a href="#top">(Back to Top)</a></p>
+		</div>
+	  </div>
+	
+	</div>
+	<script src="https://vedali29.github.io/coursera-test/jquery-2.1.4.min.js"></script>
+	<script src="https://vedali29.github.io/coursera-test/bootstrap.min.js"></script>
+  	
+</body>
+</html>
